@@ -33,3 +33,7 @@ if (typeof testeEscopoLet !== 'undefined') {
 } else {
   console.log("testeEscopoLet não está acessível fora do if (comportamento esperado de let).");
 }
+
+/*Variáveis var declaradas dentro de um bloco (if) têm um escopo mais amplo (função ou global), podendo ser acessadas fora dele. 
+Já let e const ficam restritas ao bloco onde foram criadas. 
+Usar let e const ajuda a evitar comportamentos inesperados e torna o código mais organizado.*/
