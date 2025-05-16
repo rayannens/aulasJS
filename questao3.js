@@ -1,7 +1,7 @@
-const USUARIO_VALIDO = "adminUser";
-const SENHA_VALIDA = "securePass123";
-let usuarioDigitado = "adminUser";
-let senhaDigitada = "wrongPassword";
+const USUARIO_VALIDO = "rayanne";
+const SENHA_VALIDA = "amarelinha123";
+let usuarioDigitado = "rayanne";
+let senhaDigitada = "amarelinha123";
 let loginStatusMessage;
 
 
