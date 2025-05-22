@@ -23,13 +23,13 @@ console.log(loginStatusMessage);
 
 console.log("\n--- Escopo de Variáveis ---");
 if (typeof testeEscopoVar !== 'undefined') {
-  console.log("Acessando testeEscopoVar fora do if:", testeEscopoVar); // Isso funcionará
+  console.log("Acessando testeEscopoVar fora do if:", testeEscopoVar);
 } else {
   console.log("testeEscopoVar não está acessível fora do if (como esperado com var declarado dentro).");
 }
 
 if (typeof testeEscopoLet !== 'undefined') {
-  console.log("Acessando testeEscopoLet fora do if:", testeEscopoLet); // Isso NÃO funcionará
+  console.log("Acessando testeEscopoLet fora do if:", testeEscopoLet);
 } else {
   console.log("testeEscopoLet não está acessível fora do if (comportamento esperado de let).");
 }
